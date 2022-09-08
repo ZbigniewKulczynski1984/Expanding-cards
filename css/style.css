@@ -24,7 +24,7 @@ body {
     background-repeat: no-repeat;
     height: 80vw;
     border-radius: 50px;
-    color: white;
+    color: limegreen;
     cursor: pointer;
     flex: 0.5;
     margin: 10px;
@@ -47,6 +47,7 @@ body {
 
 .panel.active h3 {
     opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
 }
 
 @media (max-width: 480px) {
